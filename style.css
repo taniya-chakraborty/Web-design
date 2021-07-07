@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bkgrd{
+  background-image: url("Image/1.png");
+  min-height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  
+}
+
+.box{
+    border: 2px solid rgb(121, 219, 121);
+    width: 80%;
+    position: relative;
+    top:80px;
+    left: 9.7vw;
+    display: flex;
+    
+}
+.btn1{
+    height: 7vh;
+    width: 10vw;
+    background-color: rgb(82, 199, 82);
+    font-size: large;
+    color: white;
+    border: none;
+}
+.child-box1{
+    margin-left: 2.5%;
+}
+.blockhead{
+    margin: 4vh;
+    color: rgb(58, 180, 58);
+    font-size: 25px;
+}
+.span1{
+    margin: 5vh;
+font-family: Sans-serif;
+}
+.btn1{
+    height: 5vh;
+    width: 18vw;
+    border: 2px solid rgb(116, 212, 116);
+    font-size: large;
+    color: rgb(82, 233, 82);
+    background-color: white; 
+    font-weight: 190;
+    margin: 4vh;
+
+}
+.btn1:hover{
+    background-color: rgb(104, 212, 104);
+    color: white;
+}
+
+.foot1{
+    background-color: rgba(3, 189, 3, 0.4);
+    height: 18vh;
+    width: 80%;
+    margin: 0vh 21vh 0vh 21vh;
+
+}
+.foot2{
+    background-color: #0f0707;
+    height: 55vh;
+    width: 100%;
+    padding-left: 12%;    
+   
+   
+}
+.ul1{
+    padding: 20px;
+    list-style-type: none;
+}
+.col1{
+    color: #2ba05a;
+    margin: 2vh;
+
+}
+.foot-child1{
+    margin: 10vh 2vh 0 2vh;
+    float: left;
+    color: white;
+
+}
+.foot-child2{
+    margin: 10vh 2vh 0 2vh;
+    float: left;
+    color: white;
+
+}
+.foot-child3{
+    margin: 10vh 2vh 0 15vh;
+    float: left;
+    color: white;
+}
+.white{
+    color: white;
+}
+
+
+.email{
+    height: 5vh;
+    margin: 2vh;
+    width: 18vw;
+}
+
+.logoleft{
+    list-style-type: none;
+    margin: 1vh;
+    float: left;
+}
+.logoleft .logo a:hover{
+  color: #2ba05a;
+}
+
+.logo{
+    float: left;
+    padding: 2vh;
+
+}
+.logoright{
+    list-style-type: none;
+    margin: 1vh;
+    float: right;
+}
+.logo1 a:hover{
+  columns: #2ba05a;
+}
+.logo2{
+    float: left;
+    padding: 0;
+    color: white;
+}
+.logo1{
+    float: left;
+    padding: 2vh;
+}
+.navright{
+    list-style-type: none;
+    margin: 1vh;
+    float: right;
+}
+.navright a:hover{
+  color: #2ba05a;
+}
+.navr{
+    float: left;
+    padding: 2vh;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+hr{
+    width: 100%;
+}
+
+div .centered {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centertext{
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centertext p{
+  font-family: 'Fuggles', Sans-serif;
+  font-stretch: ultra-expanded;
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+.bannerbutton {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.bannerbutton button{
+  border-radius: 10px;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-right: 3vh;
+  padding-left: 3vh;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  color: #2ba05a;
+  
+}
+
+#taniya{
+    height: 5vh;
+    margin: 2vh;
+}
+
+.bannerbutton button:hover{
+    background-color: rgb(104, 212, 104);
+    color: white;
+}
+
+section #company_timing_container {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: #12a84e;
+    padding: 2%;
+    color: #ffffff;
+    font-size: 0.9rem;
+    margin-top: 50vh;
+}
+section #company_timing_container #heading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+section #company_timing_container .timing__block {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 2% 5%;
+    height: 4rem;
+    border-right: 2px solid white;
+}
+
